@@ -9,11 +9,10 @@ Author: Tyler Laudenslager
 
 How to use the Pokédex program
 --------------------------------------
-Note : p3_402.py is a copy of pokedex.py
 
 Interactive Mode:
   
-  -> python3 p3_402.py
+  -> python3 pokedex.py
 
 Interactive mode allows for an 
 interactive command session.
@@ -24,7 +23,7 @@ this command
 
 Batch Mode:
   
-  -> python3 p3_402.py file [ file ]*
+  -> python3 pokedex.py file [ file ]*
 
 Batch mode is used to run alot of commands
 from a file without having to type in each
@@ -159,7 +158,7 @@ Batch mode is activated by creating a file that is allowed to hold
 numerous commands and having the file be used as a command line
 argument when I run the program. Example
 
-  python3 p3_402.py input1
+  python3 pokedex.py input1
 
 This command will run the pokedex and execute all the commands contained
 inside the input1 text file. The output is organized in a way that
